@@ -2,9 +2,14 @@
 
 ## Project Overview
 
-    Flight delays and cancellations are a common issue in air travel, impacting millions of passengers annually. Delays can lead to missed connections, additional expenses, and significant disruptions for both airlines and travelers. This project aims to leverage historical flight data to predict the likelihood of a flight being delayed or canceled before departure, providing valuable insights for passengers, airlines, and travel planning applications.
+Flight delays and cancellations are a common issue in air travel, impacting millions of passengers annually. 
+Delays can lead to missed connections, additional expenses, and significant disruptions for both airlines and 
+travelers. This project aims to leverage historical flight data to predict the likelihood of a flight being
+ delayed or canceled before departure, providing valuable insights for passengers, airlines, and travel planning applications.
 
-    By predicting flight delays and cancellations in advance, airlines and passengers can make better decisions. For instance, passengers might choose flights with a lower risk of delay, or airlines could proactively manage scheduling to minimize the ripple effects of delays across their networks.
+By predicting flight delays and cancellations in advance, airlines and passengers can make better decisions. 
+For instance, passengers might choose flights with a lower risk of delay, or airlines could proactively 
+manage scheduling to minimize the ripple effects of delays across their networks.
 
 ## Problem Statement
 
