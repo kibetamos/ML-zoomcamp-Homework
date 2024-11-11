@@ -33,3 +33,41 @@ To set up the environment, you need to have Python installed. This project uses 
     xgboost
 
 You can install the required libraries using pip:
+## Data Preparation
+
+1. Load the dataset and convert column names to lowercase and replace spaces with underscores.
+2. Remove the `student_id` column.
+3. Fill missing values with zeros.
+4. Split the dataset into training, validation, and test sets (60%/20%/20%).
+5. Use `DictVectorizer` to convert the DataFrames into matrices for model training.
+
+## Model Training
+
+### Decision Tree
+
+A decision tree regressor was trained with a maximum depth of 1. The most important feature used for splitting the data was identified as **study_hours_per_week**.
+
+### Random Forest
+
+A random forest model was trained with the following parameters:
+
+- `n_estimators=10`
+- `random_state=1`
+- `n_jobs=-1` (optional)
+
+The Root Mean Squared Error (RMSE) calculated on the validation set was **42.13**.
+
+### XGBoost
+
+XGBoost was used to further enhance model performance. The `eta` parameter was tuned to evaluate its effect on RMSE. The following parameters were set for training:
+
+```python
+xgb_params = {
+    'eta': 0.3, 
+    'max_depth': 6,
+    'min_child_weight': 1,
+    'objective': 'reg:squarederror',
+    'nthread': 8,
+    'seed': 1,
+    'verbosity': 1,
+}
