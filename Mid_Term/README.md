@@ -8,15 +8,15 @@
 
 ## Problem Statement
 
-    The objective of this project is to build a predictive model that estimates the likelihood of a flight delay or cancellation based on factors such as:
+The objective of this project is to build a predictive model that estimates the likelihood of a flight delay or cancellation based on factors such as:
 
-        Date and time of departure
-        Airline
-        Departure and arrival airports
-        Historical data on delay reasons
-        Other relevant features like weather (if available)
+    1. Date and time of departure
+    2. Airline
+    3. Departure and arrival airports
+    4. Historical data on delay reasons
+    5. Other relevant features like weather (if available)
 
-    Using this information, the model will classify flights as likely to be "On-Time," "Delayed," or "Canceled."
+Using this information, the model will classify flights as likely to be "On-Time," "Delayed," or "Canceled."
 
 
 ## Use Cases
