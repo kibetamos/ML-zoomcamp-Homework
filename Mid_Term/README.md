@@ -36,5 +36,6 @@ The project uses the Flight Delays and Cancellations dataset from Kaggle, which 
 - Deploy the model as an API that accepts flight details and returns delay and cancellation probabilities.
 
 ## Deployment and Usage
-The predictive model will be deployed as a REST API using a framework like Flask or BentoML. This will allow real-time access to the model’s predictions through simple API requests. The deployment environment will be containerized using Docker, with optional cloud deployment on platforms like AWS or Google Cloud for scalability.
+The predictive model will be deployed as a REST API using a framework like Flask or BentoML. This will allow real-time access to the model’s predictions through simple API requests. 
+The deployment environment will be containerized using Docker, with optional cloud deployment on platforms like AWS or Google Cloud for scalability.
 
