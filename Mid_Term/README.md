@@ -26,3 +26,15 @@
 2. For Airlines: Airlines can use this model to adjust operations and prepare in advance for flights that have a high likelihood of delay, minimizing disruptions to their schedules.
 
 3. For Travel Apps and Platforms: Integrating delay prediction as a feature can improve user experience and engagement, giving passengers an added layer of confidence in planning their trips.
+
+## Data and Methodology
+The project uses the Flight Delays and Cancellations dataset from Kaggle, which includes detailed records on flights in the United States, including information on delay reasons and cancellation causes. Using this dataset, we will:
+
+    Perform exploratory data analysis to understand delay patterns and correlations between features.
+    Apply feature engineering techniques to prepare the data for modeling, including handling missing values and encoding categorical features.
+    Train and evaluate multiple machine learning models, selecting the best-performing model for deployment.
+    Deploy the model as an API that accepts flight details and returns delay and cancellation probabilities.
+
+## Deployment and Usage
+The predictive model will be deployed as a REST API using a framework like Flask or BentoML. This will allow real-time access to the model’s predictions through simple API requests. The deployment environment will be containerized using Docker, with optional cloud deployment on platforms like AWS or Google Cloud for scalability.
+
