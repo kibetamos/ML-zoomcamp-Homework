@@ -11,19 +11,19 @@ Key Challenges:
 
 User Behavior Analysis:
 
-    1.Identifying the correlation between features such as daily internet usage, time spent on the site, and ad interactions.
+1.Identifying the correlation between features such as daily internet usage, time spent on the site, and ad interactions.
 
 Demographic Insights:
 
-1.derstanding how user demographics (e.g., age, income, location, and gender) influence ad clicks.
+1.Understanding how user demographics (e.g., age, income, location, and gender) influence ad clicks.
 
 Real-Time Predictions:
 
-    .Deploying a model capable of making accurate predictions to aid in real-time decision-making for ad placement.
+1.Deploying a model capable of making accurate predictions to aid in real-time decision-making for ad placement.
 
 Scalability:
 
-    Creating a solution that can scale effectively to handle large datasets and serve predictions through an API.
+1.Creating a solution that can scale effectively to handle large datasets and serve predictions through an API.
 
 
 This project addresses these challenges by building a machine learning model to predict click-through rates and deploying it as an easily accessible REST API, enabling practical integration into marketing workflows.
