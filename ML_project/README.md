@@ -29,4 +29,22 @@ Scalability:
 This project addresses these challenges by building a machine learning model to predict click-through rates and deploying it as an easily accessible REST API, enabling practical integration into marketing workflows.
 
 ### Instructions to Run the Project
-Clone the Repository: Clone the project repository to your local machine:
+
+#### Local Setup
+Clone the Repository: 
+
+    git clone https://github.com/kibetamos/ML-zoomcamp-Homework.git
+    cd ML_project
+
+Set Up the Python Environment:
+
+#### we are using requirements.txt
+Create and activate virtual environments:
+    python -m venv venv
+
+    source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
