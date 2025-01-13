@@ -11,15 +11,15 @@ Key Challenges:
 
 User Behavior Analysis:
 
-    Identifying the correlation between features such as daily internet usage, time spent on the site, and ad interactions.
+    1.Identifying the correlation between features such as daily internet usage, time spent on the site, and ad interactions.
 
 Demographic Insights:
 
-    Understanding how user demographics (e.g., age, income, location, and gender) influence ad clicks.
+    1.Understanding how user demographics (e.g., age, income, location, and gender) influence ad clicks.
 
 Real-Time Predictions:
 
-    Deploying a model capable of making accurate predictions to aid in real-time decision-making for ad placement.
+    .Deploying a model capable of making accurate predictions to aid in real-time decision-making for ad placement.
 
 Scalability:
 
