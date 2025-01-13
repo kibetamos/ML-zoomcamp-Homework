@@ -27,3 +27,6 @@ Scalability:
 
 
 This project addresses these challenges by building a machine learning model to predict click-through rates and deploying it as an easily accessible REST API, enabling practical integration into marketing workflows.
+
+### Instructions to Run the Project
+Clone the Repository: Clone the project repository to your local machine:
