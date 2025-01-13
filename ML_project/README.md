@@ -15,7 +15,7 @@ User Behavior Analysis:
 
 Demographic Insights:
 
-    1.Understanding how user demographics (e.g., age, income, location, and gender) influence ad clicks.
+1.derstanding how user demographics (e.g., age, income, location, and gender) influence ad clicks.
 
 Real-Time Predictions:
 
